@@ -1,0 +1,21 @@
+path: /content/grocery_subset
+train: train/images
+val: valid/images
+names:
+- Alcohol
+- Candy
+- Canned Food
+- Chocolate
+- Dessert
+- Dried Food
+- Dried Fruit
+- Drink
+- Gum
+- Instant Drink
+- Instant Noodles
+- Milk
+- Personal Hygiene
+- Puffed Food
+- Seasoner
+- Stationery
+- Tissue
