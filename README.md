@@ -47,6 +47,7 @@ yolov8-grocery-model/
 ```bash
 git clone https://github.com/ChristinaTUNA/yolov8-grocery-model.git
 cd yolov8-grocery-model
+```
 
 2. Load the trained model
 You can load the model using Ultralytics CLI or Python API:
