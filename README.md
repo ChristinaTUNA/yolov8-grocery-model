@@ -14,6 +14,7 @@ This project uses **YOLOv8** to detect grocery items in real-time images, intend
 ---
 
 ## 📁 Repository Structure
+```bash
 yolov8-grocery-model/
 │
 ├── yolov8_outputs/ # Exported results from runs/detect/
@@ -28,7 +29,7 @@ yolov8-grocery-model/
 │ └── data.yaml # Class names and dataset structure
 │
 ├── README.md # You’re here!
-
+```
 
 ---
 
@@ -49,23 +50,25 @@ git clone https://github.com/ChristinaTUNA/yolov8-grocery-model.git
 cd yolov8-grocery-model
 ```
 
-2. Load the trained model
+### 2. Load the trained model
 You can load the model using Ultralytics CLI or Python API:
 
-python
-Copy
-Edit
+```bash
 from ultralytics import YOLO
 model = YOLO("yolov8_outputs/train/weights/best.pt")
 results = model.predict("your_image.jpg", conf=0.5)
-3. Modify / extend
-Replace test images
+```
 
-Improve with OCR (for text on packaging)
+### 3. Modify / extend
+-Replace test images
 
-Integrate EfficientNet for finer classification
+-Improve with OCR (for text on packaging)
 
-Hook into a mobile app, API, or checkout interface
+-Integrate EfficientNet for finer classification
+
+-Hook into a mobile app, API, or checkout interface
+
+---
 
 🧩 Future Integration
 Component	Description
@@ -74,12 +77,11 @@ Component	Description
 📱 Mobile App	Grocery assistant or self-checkout UI
 ☁️ Cloud API	For large-scale inference
 
+---
+
 📝 License
 This project is open-source and may be adapted for educational and research purposes. Contact for commercial use.
 
-yaml
-Copy
-Edit
 
 ---
 
