@@ -19,13 +19,13 @@ yolov8-grocery-model/
 │
 ├── yolov8_outputs/ # Exported results from runs/detect/
 │ ├── train/ # YOLOv8 training results
+│ │ ├──  weights/
+│ │ │ ├── best.pt # Best model weights (to reuse)
+│ │ │ └── last.pt # Last epoch weights
+│ │ ├──  results.csv
+│ │ ├──  labels.jpg # Label distribution
+│ │ └──  args.yaml / opt.yaml # Training configuration
 │ └── predict/ # Sample inference results
-│ ├── weights/
-│ │ ├── best.pt # Best model weights (to reuse)
-│ │ └── last.pt # Last epoch weights
-│ ├── results.csv # Training performance logs
-│ ├── args.yaml / opt.yaml # Training configuration
-│ ├── labels.jpg # Label distribution
 │ └── data.yaml # Class names and dataset structure
 │
 ├── README.md # You’re here!
