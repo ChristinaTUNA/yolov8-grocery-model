@@ -43,7 +43,7 @@ yolov8-grocery-model/
 ## 🧠 Model Details
 
 - **Model**: `YOLOv8n` (Nano) for faster training and inference
-- **Dataset**: Custom grocery image set with bounding box annotations
+- **Dataset**: Roboflow grocery image dataset with bounding box annotations
 - **Classes**: Detected using custom `data.yaml` config
 
 
@@ -78,16 +78,8 @@ results = model.predict("your_image.jpg", conf=0.5)
 
 🧩 Future Integration
 Component	Description
-🔠 OCR	Read product labels, expiry dates
-🧠 EfficientNet	Classify similar-looking items more precisely
-📱 Mobile App	Grocery assistant or self-checkout UI
-☁️ Cloud API	For large-scale inference
-
----
-
-📝 License
-This project is open-source and may be adapted for educational and research purposes. Contact for commercial use.
-
-
----
+- 🔠 OCR	Read product labels, expiry dates
+- 🧠 EfficientNet	Classify similar-looking items more precisely
+- 📱 Mobile App	Grocery assistant or self-checkout UI
+- ☁️ Cloud API	For large-scale inference
 
