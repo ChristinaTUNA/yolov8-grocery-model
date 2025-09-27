@@ -2,7 +2,6 @@
 
 This project uses **YOLOv8** to detect grocery items in real-time images, intended as a component of a **barcode-free smart checkout system**. It can also be extended to support **OCR** and **EfficientNet**-based classification downstream.
 
----
 
 ## 📦 Project Overview
 
@@ -11,7 +10,7 @@ This project uses **YOLOv8** to detect grocery items in real-time images, intend
 - **Input Format**: Images of grocery products (single or multiple items).
 - **Output Format**: Detected objects with bounding boxes and class names.
 
----
+
 ## Libraries Used
 
 <p align="left">
@@ -40,7 +39,6 @@ yolov8-grocery-model/
 ├── README.md # You’re here!
 ```
 
----
 
 ## 🧠 Model Details
 
@@ -48,7 +46,6 @@ yolov8-grocery-model/
 - **Dataset**: Custom grocery image set with bounding box annotations
 - **Classes**: Detected using custom `data.yaml` config
 
----
 
 ## 🚀 How to Use
 
