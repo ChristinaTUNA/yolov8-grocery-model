@@ -12,6 +12,15 @@ This project uses **YOLOv8** to detect grocery items in real-time images, intend
 - **Output Format**: Detected objects with bounding boxes and class names.
 
 ---
+## Libraries Used
+
+<p align="left">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://ultralytics.com/"><img src="https://img.shields.io/badge/Ultralytics-FFD600?style=for-the-badge&logo=ultralytics&logoColor=black" alt="Ultralytics"></a>
+  <a href="https://numpy.org/"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"></a>
+  <a href="#"><img src="https://img.shields.io/badge/collections-003366?style=for-the-badge&logo=python&logoColor=white" alt="collections"></a>
+  <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"></a>
+</p>
 
 ## 📁 Repository Structure
 ```bash
@@ -85,10 +94,3 @@ This project is open-source and may be adapted for educational and research purp
 
 ---
 
-Let me know if you'd like to include:
-
-- A sample image (you can upload one and link it)
-- A short video of model inference
-- A separate section for EfficientNet/OCR roles
-
-Or I can generate a second version tailored for project presentation slides.
